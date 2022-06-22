@@ -1,0 +1,26 @@
+{
+    "name": "payeer/trade-api",
+    "type": "library",
+    "description": "payeer trade api",
+    "keywords": [],
+    "license": "MIT",
+    "require": {
+        "php": "8.1.*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.4.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Trade\\Api\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
